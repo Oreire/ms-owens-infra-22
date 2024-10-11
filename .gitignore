@@ -4,6 +4,7 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+ Project.tfvars
 
 # Crash log files
 crash.log
@@ -35,3 +36,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+.terraform
+.terraform.lock.hcl
+{} terraform.tfstate
